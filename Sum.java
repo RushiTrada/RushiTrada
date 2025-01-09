@@ -5,12 +5,10 @@ public class Sum{
         System.out.println("enter a number:-");
         int n= sc.nextInt();
         int sum=0;
-        int i=1;
-        while(i<=n){
-            sum+=i;
-            
-            i++;
+        for (int i = 1; i <= n; i++) {
+            sum += i;
         }
+
         System.out.println("sum of number :-"+sum);
     }
 }
